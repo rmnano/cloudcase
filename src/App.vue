@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <cloud-header />
+    <simple-calculator class="form"/>
+    <cloud-footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SimpleCalculator from './components/SimpleCalculator.vue';
+import CloudFooter from './components/CloudFooter.vue';
+import CloudHeader from './components/CloudHeader.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SimpleCalculator,
+    CloudHeader,
+    CloudFooter,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.form {
+  min-height: calc(100vh - 320px);
 }
 </style>

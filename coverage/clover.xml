@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1667267076663" clover="3.2.0">
+  <project timestamp="1667267076664" name="All files">
+    <metrics statements="13" coveredstatements="8" conditionals="5" coveredconditionals="4" methods="7" coveredmethods="4" elements="25" coveredelements="16" complexity="0" loc="13" ncloc="13" packages="3" files="5" classes="5"/>
+    <package name="src">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="App.vue" path="F:\otivo\cloudcase\src\App.vue">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="5" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="CloudFooter.vue" path="F:\otivo\cloudcase\src\components\CloudFooter.vue">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="CloudHeader.vue" path="F:\otivo\cloudcase\src\components\CloudHeader.vue">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="SimpleCalculator.vue" path="F:\otivo\cloudcase\src\components\SimpleCalculator.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="79" type="cond" truecount="0" falsecount="1"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="calc.js" path="F:\otivo\cloudcase\src\utils\calc.js">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
